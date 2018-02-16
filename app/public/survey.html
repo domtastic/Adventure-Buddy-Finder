@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Adventure Survey</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Adventure Survey</h2>
+            </div>
+        </div>
+        <!-- BEGINNING OF SURVEY-->
+        <form>
+            <!-- name input -->
+            <div class="form-group">
+                <label for="name">Name (Required)</label>
+                <input type="text" class="form-control" id="name" placeholder="John Doe">
+            </div>
+            <!-- photo input -->
+            <div class="form-group">
+                <label for="userPhoto">Photo (Required)</label>
+                <input id="userPhoto" class="form-control" type="text" placeholder="http://www.example.com/myphoto.jpg">
+            </div>
+            <!-- q1 -->
+            <div class="form-group">
+                <label for="q1">1. Friends would consider you more adventurous than other people.</label>
+                <div class="row">
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-5">
+                        <select class="form-control" id="q1">
+                            <option value="placeholder">Select an Option</option>
+                            <option value="1">Strongly Disagree</option>
+                            <option value="2">Disagree</option>
+                            <option value="3">Neutral</option>
+                            <option value="4">Agree</option>
+                            <option value="5">Strongly Agree</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <!-- q2 -->
+            <div class="form-group">
+                <label for="q2">2. You prefer cold weather activities over warm weather activities.</label>
+                <div class="row">
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-5">
+                        <select class="form-control" id="q2">
+                            <option value="placeholder">Select an Option</option>
+                            <option value="1">Strongly Disagree</option>
+                            <option value="2">Disagree</option>
+                            <option value="3">Neutral</option>
+                            <option value="4">Agree</option>
+                            <option value="5">Strongly Agree</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <!-- q3 -->
+            <div class="form-group">
+                <label for="q3">3. You would rather go on a long hike than a short hike.
+                </label>
+                <div class="row">
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-5">
+                        <select class="form-control" id="q3">
+                            <option value="placeholder">Select an Option</option>
+                            <option value="1">Strongly Disagree</option>
+                            <option value="2">Disagree</option>
+                            <option value="3">Neutral</option>
+                            <option value="4">Agree</option>
+                            <option value="5">Strongly Agree</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <!-- q4 -->
+            <div class="form-group">
+                <label for="q4">4. You prefer to carry my camping gear on my back than in the car.
+                </label>
+                <div class="row">
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-5">
+                        <select class="form-control" id="q4">
+                            <option value="placeholder">Select an Option</option>
+                            <option value="1">Strongly Disagree</option>
+                            <option value="2">Disagree</option>
+                            <option value="3">Neutral</option>
+                            <option value="4">Agree</option>
+                            <option value="5">Strongly Agree</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <!-- q5 -->
+            <div class="form-group">
+                <label for="q5">5. Long adventures (3+ days) are more fun than short trips (1-2 days).
+                </label>
+                <div class="row">
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-5">
+                        <select class="form-control" id="q5">
+                            <option value="placeholder">Select an Option</option>
+                            <option value="1">Strongly Disagree</option>
+                            <option value="2">Disagree</option>
+                            <option value="3">Neutral</option>
+                            <option value="4">Agree</option>
+                            <option value="5">Strongly Agree</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <!-- q6 -->
+            <div class="form-group">
+                <label for="q6">6. Human powered activities (hiking, biking, kayaking etc) are more fun than engine powered activities (atv,
+                    dirt-bike, speedboat etc).
+                </label>
+                <div class="row">
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-5">
+                        <select class="form-control" id="q6">
+                            <option value="placeholder">Select an Option</option>
+                            <option value="1">Strongly Disagree</option>
+                            <option value="2">Disagree</option>
+                            <option value="3">Neutral</option>
+                            <option value="4">Agree</option>
+                            <option value="5">Strongly Agree</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <!-- q7 -->
+            <div class="form-group">
+                <label for="q7">7. You like to travel long distances to find your next adventure.
+                </label>
+                <div class="row">
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-5">
+                        <select class="form-control" id="q7">
+                            <option value="placeholder">Select an Option</option>
+                            <option value="1">Strongly Disagree</option>
+                            <option value="2">Disagree</option>
+                            <option value="3">Neutral</option>
+                            <option value="4">Agree</option>
+                            <option value="5">Strongly Agree</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <!-- q8 -->
+            <div class="form-group">
+                <label for="q8">8. The more dangerous the activity, the more fun it is.
+                </label>
+                <div class="row">
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-5">
+                        <select class="form-control" id="q8">
+                            <option value="placeholder">Select an Option</option>
+                            <option value="1">Strongly Disagree</option>
+                            <option value="2">Disagree</option>
+                            <option value="3">Neutral</option>
+                            <option value="4">Agree</option>
+                            <option value="5">Strongly Agree</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <!-- q9 -->
+            <div class="form-group">
+                <label for="q9">9. Two roads diverge in a wood, and you take the road less traveled.
+                </label>
+                <div class="row">
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-5">
+                        <select class="form-control" id="q9">
+                            <option value="placeholder">Select an Option</option>
+                            <option value="1">Strongly Disagree</option>
+                            <option value="2">Disagree</option>
+                            <option value="3">Neutral</option>
+                            <option value="4">Agree</option>
+                            <option value="5">Strongly Agree</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <!-- q10 -->
+            <div class="form-group">
+                <label for="q10">10. Safety first.
+                </label>
+                <div class="row">
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-5">
+                        <select class="form-control" id="q10">
+                            <option value="placeholder">Select an Option</option>
+                            <option value="1">Strongly Disagree</option>
+                            <option value="2">Disagree</option>
+                            <option value="3">Neutral</option>
+                            <option value="4">Agree</option>
+                            <option value="5">Strongly Agree</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <!-- submit form -->
+            <button type="submit" id="submit" class="col-12 btn btn-primary">Find a Buddy</button>
+        </form>
+    </div>
+
+    <!-- MODAL -->
+    <div class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Best Match</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h2 id="match-name"></h2>
+                    <img id="match-imgage" src="" alt="Match Image">
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">E-mail</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- bootstrap JS & jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <!-- Survey JavaScript -->
+    <script type="text/javascript">
+        // submit button, get user values
+        $("#submit").on("click", (event) => {
+            event.preventDefault();
+            alert("Finding your buddy");
+            // FORM VALIDATION
+
+            function formValidation() {
+                let isValid = true;
+                $('.form-control').each(function () {
+                    if ($(this).val() === "placeholder" || $(this).val() === "") {
+                        isValid = false;
+                    }
+                });
+                return isValid;
+            }
+            // ??????? Not grabbing the data or console logging - what's happening?
+            // if form validation true - grab data
+            if (formValidation()) {
+                // get user value 
+                let userData = {
+                    name: $("#name").val(),
+                    photo: $("#userPhoto").val(),
+                    answers: [
+                        $("#q1").val(),
+                        $("#q2").val(),
+                        $("#q3").val(),
+                        $("#q4").val(),
+                        $("#q5").val(),
+                        $("#q6").val(),
+                        $("#q7").val(),
+                        $("#q8").val(),
+                        $("#q9").val(),
+                        $("#q10").val(),
+                    ]
+                };
+                console.log(userData);
+                // add to buddies object
+            }
+            else {
+                alert("Please complete all fields before submitting");
+            }
+        })
+
+
+    </script>
+</body>
+
+</html>
